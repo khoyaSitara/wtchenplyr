@@ -16,7 +16,7 @@ async def start(_, m: Message):
             disable_web_page_preview=True, quote=True
         )
     await m.reply(
-        f'Hi {m.from_user.mention(style="md")}\n <i>Use /help For More Info</i>\n
+        f'Hi {m.from_user.mention(style="md")} \n <i>Use help command For More Info</i>\n
 <i><u>Warning ⚠️</u></i>
 <b>🔞 Poem Contents Lead To Ban.</b>\n\n
 <i><b>👑 Bot Maintained By :</b>@Ashishsharmalegend</i>'
