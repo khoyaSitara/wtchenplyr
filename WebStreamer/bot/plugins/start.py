@@ -33,7 +33,7 @@ async def start(_, m: Message):
             disable_web_page_preview=True, quote=True
         )
     await m.reply(
-        text="<i>- Send Me Any File / Media For Telegram.</i>
+        text="<i>- Send Me Any File Or Media For Telegram.</i>
 <i>- I Will Provide External Direct Download Link !.</i>
 <i>- Add Me In Your Channel For Direct Download Link Button</i>
 <i>- Generate The Permanent Link With Fastest Speed</i>\n
