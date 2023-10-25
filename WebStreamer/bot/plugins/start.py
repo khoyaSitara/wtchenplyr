@@ -31,7 +31,14 @@ async def start(_, m: Message):
             disable_web_page_preview=True, quote=True
         )
     await m.reply(
-        f'Hi {m.from_user.mention(style="md")}, Send me a file to get an instant download link.'
+        f'<i>- Send Me Any File / Media For Telegram.</i>
+<i>- I Will Provide External Direct Download Link !.</i>
+<i>- Add Me In Your Channel For Direct Download Link Button</i>
+<i>- Generate The Permanent Link With Fastest Speed</i>\n
+<i>- You Can Use This Link To Stream File Online Without Downloading In Your Media Player.</i>\n
+<u>🔸 Warning ⚠️</u>\n
+<b>🔞 Poem Contents Lead To Ban.</b>\n
+<i>Contact Owner / Report Error/Bugs</i> <b>: <a href='https://t.me/Ashishsharmalegend'>[ ᴄʟɪᴄᴋ ʜᴇʀᴇ ]</a></b>'
     )
 
 @StreamBot.on_message(filters.command(["about"]) & filters.private)
@@ -43,5 +50,8 @@ async def start(_, m: Message):
             disable_web_page_preview=True, quote=True
         )
     await m.reply(
-        f'Hi {m.from_user.mention(style="md")}, Send me a file to get an instant download link.'
+        f'<b>⚜ My Name : Eliteflix File To Link Bot</b>\n
+<b>🔸Bot Version : <a href='https://telegram.me/eliteflix_official'>1.2.8</a></b>\n
+<b>🔹Owner/Developer : <a href='https://telegram.me/Ashishsharmalegend'>Ashish Sharma</a></b>\n
+<b>🔸Last Updated : <a href='https://telegram.me/eliteflix_official'>[ 25 - Oct - 2023 ] 10:28 pm</a></b>'
     )
