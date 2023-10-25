@@ -41,11 +41,11 @@ async def media_receive_handler(_, m: Message):
             quote=True,
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton("Click To Download 📥", url=stream_link)]]
-            ),
-            reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton("Watch Online In MX Player", url=intent:stream_link#Intent;package=com.mxtech.videoplayer.ad;end)]]
-            ),
+                [[
+                          InlineKeyboardButton("🤖 Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ", url=f"https://t.me/{Var.UPDATES_CHANNEL}")],
+                         [InlineKeyboardButton("🔄 Refresh / Try Again", url=f"https://t.me/{(await b.get_me()).username}?start=AvishkarPatil_{usr_cmd}")
+                        
+                        ]]
         )
     except errors.ButtonUrlInvalid:
         await m.reply_text(
