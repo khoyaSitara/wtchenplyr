@@ -35,7 +35,7 @@ async def media_receive_handler(_, m: Message):
     logger.info(f"Generated link: {stream_link} for {m.from_user.first_name}")
     try:
         await m.reply_text(
-            text="**Here's Your Download Link**\n\n__Click To Copy Then Open In Your Browser To Download 👇__\n\n<code>{}</code>\n\n(<a href='{}'>shortened link</a>)\n\n**DYK..?**: __You Can Use This Link To Stream File Online Without Downloading In Your Media Player.Suggested - VLC Media Player.__".format(
+            text="*Here's Your Download Link*\n\n__Click To Copy Then Open In Your Browser To Download 👇__\n\n<code>{}</code>\n\n(<a href='{}'>shortened link</a>)\n\n**DYK..?**: __You Can Use This Link To Stream File Online Without Downloading In Your Media Player.Suggested - VLC Media Player.__".format(
                 stream_link, short_link
             ),
             quote=True,
