@@ -7,7 +7,7 @@ from pyrogram.types import Message
 from WebStreamer.vars import Var 
 from WebStreamer.bot import StreamBot
 
-@StreamBot.on_message(filters.command(["start", "help"]) & filters.private)
+@StreamBot.on_message(filters.command(["start"]) & filters.private)
 async def start(_, m: Message):
     if Var.ALLOWED_USERS and not ((str(m.from_user.id) in Var.ALLOWED_USERS) or (m.from_user.username in Var.ALLOWED_USERS)):
         return await m.reply(
@@ -16,7 +16,10 @@ async def start(_, m: Message):
             disable_web_page_preview=True, quote=True
         )
     await m.reply(
-        f'Hi {m.from_user.mention(style="md")}, Send me a file to get an instant download link.'
+        f'Hi {m.from_user.mention(style="md")}\n <i>Use /help For More Info</i>\n
+<i><u>Warning ⚠️</u></i>
+<b>🔞 Poem Contents Lead To Ban.</b>\n\n
+<i><b>👑 Bot Maintained By :</b>@Ashishsharmalegend</i>'
     )
 
 @StreamBot.on_message(filters.command(["help"]) & filters.private)
