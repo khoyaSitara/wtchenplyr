@@ -53,5 +53,5 @@ async def start(_, m: Message):
         f'<b>⚜ My Name : Eliteflix File To Link Bot</b>\n
 <b>🔸Bot Version : <a href='https://telegram.me/eliteflix_official'>1.2.8</a></b>\n
 <b>🔹Owner/Developer : <a href='https://telegram.me/Ashishsharmalegend'>Ashish Sharma</a></b>\n
-<b>🔸Last Updated : <a href='https://telegram.me/eliteflix_official'>[ 25 - Oct - 2023 ] 10:28 pm</a></b>'
+<b>🔸Last Updated : <a href='https://telegram.me/eliteflix_official'>[ 25 - Oct - 2023 ] 10:28 pm</a></b> <b>🥺 Repo : <a href='https://telegram.me/Ashishsharmalegend'>Soo Ja Nhi Milega 😂😂</a></b>\n'
     )
