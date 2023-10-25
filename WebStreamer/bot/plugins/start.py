@@ -16,11 +16,11 @@ async def start(_, m: Message):
             disable_web_page_preview=True, quote=True
         )
     await m.reply(
-        f'Hi Boi\n <i>Im  Download Link Generator Bot 📥</i>\n <i>Use help command For More Info</i>\n
+        ""Hi Boi\n <i>Im  Download Link Generator Bot 📥</i>\n <i>Use help command For More Info</i>\n
 <i><u>Warning ⚠️</u></i>
 <b>🔞 Poem Contents Lead To Ban.</b>\n\n
-<i><b>👑 Bot Maintained By :</b>@Ashishsharmalegend</i>'
-    )
+<i><b>👑 Bot Maintained By :</b>@Ashishsharmalegend</i>""
+    
 
 @StreamBot.on_message(filters.command(["help"]) & filters.private)
 async def start(_, m: Message):
