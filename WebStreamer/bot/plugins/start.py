@@ -30,7 +30,7 @@ async def start(_, m: Message):
             disable_web_page_preview=True, quote=True
         )
     await m.reply(
-        "<i>- Send Me Any File Or Media For Telegram.</i>\n <i>- I Will Provide External Direct Download Link !.</i>\n <i>- Add Me In Your Channel For Direct Download Link Button</i> <i>- Generate The Permanent Link With Fastest Speed</i>\n <i>- You Can Use This Link To Stream File Online Without Downloading In Your Media Player.</i>\n <u>🔸 Warning ⚠️</u>\n <b>🔞 Poem Contents Lead To Ban.</b>\n <i>Contact Owner / Report Error/Bugs</i> <b>: <a href='https://t.me/Ashishsharmalegend'>[ Click Here ]</a></b>",
+        "<i>- Send Me Any File Or Media For Telegram.</i>\n <i>- I Will Provide External Direct Download Link !.</i>\n <i>- Add Me In Your Channel For Direct Download Link Button</i>\n <i>- Generate The Permanent Link With Fastest Speed</i>\n <i>- You Can Use This Link To Stream File Online Without Downloading In Your Media Player.</i>\n <u>🔸 Warning ⚠️</u>\n <b>🔞 Poem Contents Lead To Ban.</b>\n <i>Contact Owner / Report Error/Bugs</i> <b>: <a href='https://t.me/Ashishsharmalegend'>[ Click Here ]</a></b>",
         disable_web_page_preview=True
     )
 
