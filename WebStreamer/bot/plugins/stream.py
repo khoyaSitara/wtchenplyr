@@ -54,6 +54,7 @@ async def media_receive_handler(_, m: Message):
             ),
             quote=True,
             parse_mode=ParseMode.HTML,
+            reply_markup=InlineKeyboardMarkup(
             [[
                           InlineKeyboardButton("Download Link", url=f"bdjd")],
                          [InlineKeyboardButton("Mx Pkayer", url=f"intent:stream_link#Intent;package=com.mxtech.videoplayer.ad;end")     
